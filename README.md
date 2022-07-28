@@ -7,5 +7,5 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 Future implementations:
 
 * Notifications
-* Importation of new Tasks via Remainders
+* Importation of new Tasks from Remainders
 * Change this from a watch-only app, to a watchOS app with an iOS app
