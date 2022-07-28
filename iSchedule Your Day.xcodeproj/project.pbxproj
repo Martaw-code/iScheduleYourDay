@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A3602A2892806400360AE6 /* iSchedule Your Day WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04A360292892806400360AE6 /* iSchedule Your Day WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04A3602F2892806C00360AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A3602E2892806C00360AE6 /* Assets.xcassets */; };
+		04A360352892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04A360342892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04A3603A2892806C00360AE6 /* iSchedule_Your_DayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A360392892806C00360AE6 /* iSchedule_Your_DayApp.swift */; };
+		04A3603C2892806C00360AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3603B2892806C00360AE6 /* ContentView.swift */; };
+		04A3603E2892806C00360AE6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3603D2892806C00360AE6 /* NotificationController.swift */; };
+		04A360402892806C00360AE6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3603F2892806C00360AE6 /* NotificationView.swift */; };
+		04A360422892806C00360AE6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A360412892806C00360AE6 /* ComplicationController.swift */; };
+		04A360442892806E00360AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A360432892806E00360AE6 /* Assets.xcassets */; };
+		04A360472892806E00360AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A360462892806E00360AE6 /* Preview Assets.xcassets */; };
+		04A360532892806E00360AE6 /* iSchedule_Your_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A360522892806E00360AE6 /* iSchedule_Your_DayTests.swift */; };
+		04A3605D2892806E00360AE6 /* iSchedule_Your_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3605C2892806E00360AE6 /* iSchedule_Your_DayUITests.swift */; };
+		04A3605F2892806E00360AE6 /* iSchedule_Your_DayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3605E2892806E00360AE6 /* iSchedule_Your_DayUITestsLaunchTests.swift */; };
+		04E7A53C28928A7000C44448 /* doit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A53A28928A7000C44448 /* doit.xcdatamodeld */; };
+		04E7A53E28928B3D00C44448 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A53D28928B3D00C44448 /* PersistentController.swift */; };
+		04E7A5402892902D00C44448 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A53F2892902D00C44448 /* FolderView.swift */; };
+		04E7A542289299C000C44448 /* AddNewFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A541289299C000C44448 /* AddNewFolder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A3602B2892806400360AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A3601F2892806400360AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A360282892806400360AE6;
+			remoteInfo = "iSchedule Your Day WatchKit App";
+		};
+		04A360362892806C00360AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A3601F2892806400360AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A360332892806C00360AE6;
+			remoteInfo = "iSchedule Your Day WatchKit Extension";
+		};
+		04A3604F2892806E00360AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A3601F2892806400360AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A360332892806C00360AE6;
+			remoteInfo = "iSchedule Your Day WatchKit Extension";
+		};
+		04A360592892806E00360AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A3601F2892806400360AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A360282892806400360AE6;
+			remoteInfo = "iSchedule Your Day WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A360652892806E00360AE6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04A360352892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360692892806E00360AE6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04A3602A2892806400360AE6 /* iSchedule Your Day WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A360252892806400360AE6 /* iSchedule Your Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSchedule Your Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A360292892806400360AE6 /* iSchedule Your Day WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSchedule Your Day WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A3602E2892806C00360AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A360342892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iSchedule Your Day WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A360392892806C00360AE6 /* iSchedule_Your_DayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSchedule_Your_DayApp.swift; sourceTree = "<group>"; };
+		04A3603B2892806C00360AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A3603D2892806C00360AE6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		04A3603F2892806C00360AE6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		04A360412892806C00360AE6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		04A360432892806E00360AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A360462892806E00360AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A360482892806E00360AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A360492892806E00360AE6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		04A3604E2892806E00360AE6 /* iSchedule Your DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSchedule Your DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A360522892806E00360AE6 /* iSchedule_Your_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSchedule_Your_DayTests.swift; sourceTree = "<group>"; };
+		04A360582892806E00360AE6 /* iSchedule Your DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSchedule Your DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A3605C2892806E00360AE6 /* iSchedule_Your_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSchedule_Your_DayUITests.swift; sourceTree = "<group>"; };
+		04A3605E2892806E00360AE6 /* iSchedule_Your_DayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSchedule_Your_DayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04E7A53B28928A7000C44448 /* doit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = doit.xcdatamodel; sourceTree = "<group>"; };
+		04E7A53D28928B3D00C44448 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
+		04E7A53F2892902D00C44448 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		04E7A541289299C000C44448 /* AddNewFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFolder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A360312892806C00360AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A3604B2892806E00360AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360552892806E00360AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A3601E2892806400360AE6 = {
+			isa = PBXGroup;
+			children = (
+				04A3602D2892806400360AE6 /* iSchedule Your Day WatchKit App */,
+				04A360382892806C00360AE6 /* iSchedule Your Day WatchKit Extension */,
+				04A360512892806E00360AE6 /* iSchedule Your DayTests */,
+				04A3605B2892806E00360AE6 /* iSchedule Your DayUITests */,
+				04A360262892806400360AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A360262892806400360AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A360252892806400360AE6 /* iSchedule Your Day.app */,
+				04A360292892806400360AE6 /* iSchedule Your Day WatchKit App.app */,
+				04A360342892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex */,
+				04A3604E2892806E00360AE6 /* iSchedule Your DayTests.xctest */,
+				04A360582892806E00360AE6 /* iSchedule Your DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A3602D2892806400360AE6 /* iSchedule Your Day WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				04A3602E2892806C00360AE6 /* Assets.xcassets */,
+			);
+			path = "iSchedule Your Day WatchKit App";
+			sourceTree = "<group>";
+		};
+		04A360382892806C00360AE6 /* iSchedule Your Day WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A537289287EF00C44448 /* Database */,
+				04E7A536289287D400C44448 /* Views */,
+				04A360392892806C00360AE6 /* iSchedule_Your_DayApp.swift */,
+				04A3603B2892806C00360AE6 /* ContentView.swift */,
+				04A3603D2892806C00360AE6 /* NotificationController.swift */,
+				04A3603F2892806C00360AE6 /* NotificationView.swift */,
+				04A360412892806C00360AE6 /* ComplicationController.swift */,
+				04A360432892806E00360AE6 /* Assets.xcassets */,
+				04A360482892806E00360AE6 /* Info.plist */,
+				04A360492892806E00360AE6 /* PushNotificationPayload.apns */,
+				04A360452892806E00360AE6 /* Preview Content */,
+			);
+			path = "iSchedule Your Day WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		04A360452892806E00360AE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04A360462892806E00360AE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A360512892806E00360AE6 /* iSchedule Your DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A360522892806E00360AE6 /* iSchedule_Your_DayTests.swift */,
+			);
+			path = "iSchedule Your DayTests";
+			sourceTree = "<group>";
+		};
+		04A3605B2892806E00360AE6 /* iSchedule Your DayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A3605C2892806E00360AE6 /* iSchedule_Your_DayUITests.swift */,
+				04A3605E2892806E00360AE6 /* iSchedule_Your_DayUITestsLaunchTests.swift */,
+			);
+			path = "iSchedule Your DayUITests";
+			sourceTree = "<group>";
+		};
+		04E7A536289287D400C44448 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A5392892885B00C44448 /* FolderView */,
+				04E7A5382892884800C44448 /* TodosView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04E7A537289287EF00C44448 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A53A28928A7000C44448 /* doit.xcdatamodeld */,
+				04E7A53D28928B3D00C44448 /* PersistentController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		04E7A5382892884800C44448 /* TodosView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TodosView;
+			sourceTree = "<group>";
+		};
+		04E7A5392892885B00C44448 /* FolderView */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A53F2892902D00C44448 /* FolderView.swift */,
+				04E7A541289299C000C44448 /* AddNewFolder.swift */,
+			);
+			path = FolderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A360242892806400360AE6 /* iSchedule Your Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A3606A2892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day" */;
+			buildPhases = (
+				04A360232892806400360AE6 /* Resources */,
+				04A360692892806E00360AE6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A3602C2892806400360AE6 /* PBXTargetDependency */,
+			);
+			name = "iSchedule Your Day";
+			productName = "iSchedule Your Day";
+			productReference = 04A360252892806400360AE6 /* iSchedule Your Day.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		04A360282892806400360AE6 /* iSchedule Your Day WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A360662892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day WatchKit App" */;
+			buildPhases = (
+				04A360272892806400360AE6 /* Resources */,
+				04A360652892806E00360AE6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A360372892806C00360AE6 /* PBXTargetDependency */,
+			);
+			name = "iSchedule Your Day WatchKit App";
+			productName = "iSchedule Your Day WatchKit App";
+			productReference = 04A360292892806400360AE6 /* iSchedule Your Day WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		04A360332892806C00360AE6 /* iSchedule Your Day WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A360622892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day WatchKit Extension" */;
+			buildPhases = (
+				04A360302892806C00360AE6 /* Sources */,
+				04A360312892806C00360AE6 /* Frameworks */,
+				04A360322892806C00360AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSchedule Your Day WatchKit Extension";
+			productName = "iSchedule Your Day WatchKit Extension";
+			productReference = 04A360342892806C00360AE6 /* iSchedule Your Day WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		04A3604D2892806E00360AE6 /* iSchedule Your DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A3606D2892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your DayTests" */;
+			buildPhases = (
+				04A3604A2892806E00360AE6 /* Sources */,
+				04A3604B2892806E00360AE6 /* Frameworks */,
+				04A3604C2892806E00360AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A360502892806E00360AE6 /* PBXTargetDependency */,
+			);
+			name = "iSchedule Your DayTests";
+			productName = "iSchedule Your DayTests";
+			productReference = 04A3604E2892806E00360AE6 /* iSchedule Your DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A360572892806E00360AE6 /* iSchedule Your DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A360702892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your DayUITests" */;
+			buildPhases = (
+				04A360542892806E00360AE6 /* Sources */,
+				04A360552892806E00360AE6 /* Frameworks */,
+				04A360562892806E00360AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A3605A2892806E00360AE6 /* PBXTargetDependency */,
+			);
+			name = "iSchedule Your DayUITests";
+			productName = "iSchedule Your DayUITests";
+			productReference = 04A360582892806E00360AE6 /* iSchedule Your DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A3601F2892806400360AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04A360242892806400360AE6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04A360282892806400360AE6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04A360332892806C00360AE6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04A3604D2892806E00360AE6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04A360332892806C00360AE6;
+					};
+					04A360572892806E00360AE6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04A360282892806400360AE6;
+					};
+				};
+			};
+			buildConfigurationList = 04A360222892806400360AE6 /* Build configuration list for PBXProject "iSchedule Your Day" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A3601E2892806400360AE6;
+			productRefGroup = 04A360262892806400360AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A360242892806400360AE6 /* iSchedule Your Day */,
+				04A360282892806400360AE6 /* iSchedule Your Day WatchKit App */,
+				04A360332892806C00360AE6 /* iSchedule Your Day WatchKit Extension */,
+				04A3604D2892806E00360AE6 /* iSchedule Your DayTests */,
+				04A360572892806E00360AE6 /* iSchedule Your DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A360232892806400360AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360272892806400360AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A3602F2892806C00360AE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360322892806C00360AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A360472892806E00360AE6 /* Preview Assets.xcassets in Resources */,
+				04A360442892806E00360AE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A3604C2892806E00360AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360562892806E00360AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A360302892806C00360AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A3603E2892806C00360AE6 /* NotificationController.swift in Sources */,
+				04E7A53E28928B3D00C44448 /* PersistentController.swift in Sources */,
+				04E7A5402892902D00C44448 /* FolderView.swift in Sources */,
+				04E7A542289299C000C44448 /* AddNewFolder.swift in Sources */,
+				04A3603C2892806C00360AE6 /* ContentView.swift in Sources */,
+				04A360422892806C00360AE6 /* ComplicationController.swift in Sources */,
+				04E7A53C28928A7000C44448 /* doit.xcdatamodeld in Sources */,
+				04A3603A2892806C00360AE6 /* iSchedule_Your_DayApp.swift in Sources */,
+				04A360402892806C00360AE6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A3604A2892806E00360AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A360532892806E00360AE6 /* iSchedule_Your_DayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A360542892806E00360AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A3605D2892806E00360AE6 /* iSchedule_Your_DayUITests.swift in Sources */,
+				04A3605F2892806E00360AE6 /* iSchedule_Your_DayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A3602C2892806400360AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A360282892806400360AE6 /* iSchedule Your Day WatchKit App */;
+			targetProxy = 04A3602B2892806400360AE6 /* PBXContainerItemProxy */;
+		};
+		04A360372892806C00360AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A360332892806C00360AE6 /* iSchedule Your Day WatchKit Extension */;
+			targetProxy = 04A360362892806C00360AE6 /* PBXContainerItemProxy */;
+		};
+		04A360502892806E00360AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A360332892806C00360AE6 /* iSchedule Your Day WatchKit Extension */;
+			targetProxy = 04A3604F2892806E00360AE6 /* PBXContainerItemProxy */;
+		};
+		04A3605A2892806E00360AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A360282892806400360AE6 /* iSchedule Your Day WatchKit App */;
+			targetProxy = 04A360592892806E00360AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A360602892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A360612892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A360632892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSchedule Your Day WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iSchedule Your Day WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iSchedule Your Day WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04A360642892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSchedule Your Day WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iSchedule Your Day WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iSchedule Your Day WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04A360672892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iSchedule_Your_Day_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSchedule Your Day WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04A360682892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iSchedule_Your_Day_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSchedule Your Day WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04A3606B2892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04A3606C2892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04A3606E2892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSchedule Your Day WatchKit Extension.appex/iSchedule Your Day WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04A3606F2892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSchedule Your Day WatchKit Extension.appex/iSchedule Your Day WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04A360712892806E00360AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSchedule Your Day WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04A360722892806E00360AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MartaW.iSchedule-Your-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSchedule Your Day WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A360222892806400360AE6 /* Build configuration list for PBXProject "iSchedule Your Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A360602892806E00360AE6 /* Debug */,
+				04A360612892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A360622892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A360632892806E00360AE6 /* Debug */,
+				04A360642892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A360662892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A360672892806E00360AE6 /* Debug */,
+				04A360682892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A3606A2892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A3606B2892806E00360AE6 /* Debug */,
+				04A3606C2892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A3606D2892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A3606E2892806E00360AE6 /* Debug */,
+				04A3606F2892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A360702892806E00360AE6 /* Build configuration list for PBXNativeTarget "iSchedule Your DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A360712892806E00360AE6 /* Debug */,
+				04A360722892806E00360AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E7A53A28928A7000C44448 /* doit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E7A53B28928A7000C44448 /* doit.xcdatamodel */,
+			);
+			currentVersion = 04E7A53B28928A7000C44448 /* doit.xcdatamodel */;
+			path = doit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04A3601F2892806400360AE6 /* Project object */;
+}
