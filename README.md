@@ -10,7 +10,7 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 ## Tutorial
 
-<img src="images/launchApp.gif" alt="homeScreen" width="300" height="250">
+<img src="images/launchApp.gif" alt="homeScreen" width="300" height="300">
 
 
 Future implementations:
