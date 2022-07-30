@@ -5,7 +5,7 @@
 <!-- ![Screenshot](images/HomeScreenv2.png) -->
 </p>
 
-Currently developing an App for watchOS 8.5 to help order your tasks daily.
+Currently developing an App for watchOS 8.5 to help order your tasks daily. The app is a simple approach to the actual Apple App Remainders to become an improved version of it
 
 The purpose of this project is to understand the basis of **SwiftUI**, how to work with **CoreData**, and how to use the **WatchKit framework**.
 
