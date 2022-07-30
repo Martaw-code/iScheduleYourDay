@@ -10,7 +10,19 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 ## Tutorial
 
-<img src="images/launchApp.gif" alt="homeScreen" width="300" height="300">
+### Launching App
+
+<img src="images/launchApp.gif" alt="launchApp" width="300" height="300">
+
+### Add new Folder
+
+<img src="images/AddNewFodlder.gif" alt="new-folder" width="300" height="300">
+
+### Real Time adding new Folder
+
+
+
+
 
 
 Future implementations:
