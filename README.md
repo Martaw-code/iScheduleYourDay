@@ -10,8 +10,7 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 ## Tutorial
 
-<iframe width="300" height="250" src="images/launchApp.gif" frameborder="0"> </iframe>
-
+<img src="images/launchApp.gif" alt="homeScreen" width="300" height="250">
 
 
 Future implementations:
