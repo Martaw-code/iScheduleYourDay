@@ -23,8 +23,19 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 <img src="images/addingFolderRT.gif" alt="launchApp" width="300" height="300">
 
+### Adding Todo
+
+<img src="images/addTodo.gif" alt="launchApp" width="300" height="300">
+
+### From Home
+
+<img src="images/fromHome.gif" alt="launchApp" width="300" height="300">
 
 ---
+
+## Persistence
+
+<img src="images/persistence.gif" alt="launchApp" width="300" height="300">
 
 **Note: Once close the app, the data is going to be saved on your watch. Therefore, if you relaunch the app all Folders and Todos are going to still be there, due to the implementation of the app persistence.**
 
