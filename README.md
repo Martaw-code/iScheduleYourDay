@@ -16,7 +16,7 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 ### Add new Folder
 
-<img src="images/AddNewFodlder.png" alt="new-folder" width="300" height="300">
+<img src="images/AddNewFolder.png" alt="new-folder" width="300" height="300">
 
 ### Real Time adding new Folder
 
