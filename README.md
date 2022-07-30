@@ -1,6 +1,6 @@
 # iScheduleYourDay
 
-<img src="images/HomeScreenv2.png" alt="homeScreen" width="100" height="100"/>
+<img src="images/HomeScreenv2.png" alt="homeScreen" width="200" height="100"/>
 <!-- ![Screenshot](images/HomeScreenv2.png) -->
 
 Currently developing an App for watchOS 8.5 to help order your tasks daily.
