@@ -1,6 +1,6 @@
 # iScheduleYourDay
 
-![Screenshot](HomeScreen.png)
+![Screenshot](images/HomeScreenv2.png)
 
 Currently developing an App for watchOS 8.5 to help order your tasks daily.
 
