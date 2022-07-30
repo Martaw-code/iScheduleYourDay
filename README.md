@@ -7,5 +7,6 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 Future implementations:
 
 * Notifications
+* Add Time and Ubication on Tasks
 * Importation of new Tasks from Remainders
 * Change this from a watch-only app, to a watchOS app with an iOS app
