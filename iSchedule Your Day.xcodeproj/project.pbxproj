@@ -24,6 +24,8 @@
 		04E7A53E28928B3D00C44448 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A53D28928B3D00C44448 /* PersistentController.swift */; };
 		04E7A5402892902D00C44448 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A53F2892902D00C44448 /* FolderView.swift */; };
 		04E7A542289299C000C44448 /* AddNewFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A541289299C000C44448 /* AddNewFolder.swift */; };
+		04F8F59F28954D4400A807B3 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8F59E28954D4400A807B3 /* TodoListView.swift */; };
+		04F8F5A1289553FF00A807B3 /* AddNewTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8F5A0289553FF00A807B3 /* AddNewTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		04E7A53D28928B3D00C44448 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
 		04E7A53F2892902D00C44448 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
 		04E7A541289299C000C44448 /* AddNewFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFolder.swift; sourceTree = "<group>"; };
+		04F8F59E28954D4400A807B3 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		04F8F5A0289553FF00A807B3 /* AddNewTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +231,8 @@
 		04E7A5382892884800C44448 /* TodosView */ = {
 			isa = PBXGroup;
 			children = (
+				04F8F59E28954D4400A807B3 /* TodoListView.swift */,
+				04F8F5A0289553FF00A807B3 /* AddNewTodo.swift */,
 			);
 			path = TodosView;
 			sourceTree = "<group>";
@@ -429,6 +435,8 @@
 			files = (
 				04A3603E2892806C00360AE6 /* NotificationController.swift in Sources */,
 				04E7A53E28928B3D00C44448 /* PersistentController.swift in Sources */,
+				04F8F5A1289553FF00A807B3 /* AddNewTodo.swift in Sources */,
+				04F8F59F28954D4400A807B3 /* TodoListView.swift in Sources */,
 				04E7A5402892902D00C44448 /* FolderView.swift in Sources */,
 				04E7A542289299C000C44448 /* AddNewFolder.swift in Sources */,
 				04A3603C2892806C00360AE6 /* ContentView.swift in Sources */,

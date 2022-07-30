@@ -18,7 +18,7 @@ struct FolderView: View {
             ForEach(results) { item in
                 HStack { //layout horitzontal i hem de mostrar cada item(i.e Folder)
                     NavigationLink(
-                        destination: Text(item.title ?? ""),
+                        destination: TodoListView(folderName: item.title ?? "", accentColor: item.colorString ?? "blau"), //MANTENIM EL MATEIX COLOR PER LES LLISTES DE DINS DE LA CARPETA
                         label: {
                             Text(item.title ?? "") //i si és buit(??), que es mostri ""
                         })
@@ -35,12 +35,12 @@ struct FolderView: View {
                                              Color(item.colorString ?? "blau")]),
                             startPoint: .top,
                             endPoint: .bottom))
-                    .cornerRadius(5)
+                    .cornerRadius(15)
                 }
             }
             //afegir un nou Folder al final
-            NavigationLink(
-            destination: Text("Afegeix un nou Folder"),
+            NavigationLink( //botó que fa el trigger
+            destination: AddNewFolder(),
             label: {
                 HStack {
                     Spacer()

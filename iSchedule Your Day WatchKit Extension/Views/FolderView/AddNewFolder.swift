@@ -22,12 +22,32 @@ struct AddNewFolder: View {
             TextField("Nom Folder...", text: $folderTitle)
             
             HStack {
-                ForEach(folderColors, id: \.self)  { item in
-                
-                
+                ForEach(folderColors, id: \.self)  { colorName in //identifica unívocament cada element que es processa: \.self
+                    Circle()
+                        .fill(Color(colorName))
+                        .frame(width: 20, height: 20)
+                        .overlay(
+                            Circle().stroke(Color.white,lineWidth: selectedColor == colorName ? 2 : 0)
+                        )
+                        .onTapGesture {
+                            selectedColor = colorName
+                        }
+                        .padding(.vertical)
                 }
+            } .padding(.horizontal)
+            
+            Button(action: addFolder) {
+                Text("Afegeix Folder")
+                    .padding(.vertical, 25)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .background(Color.orange)
+                    .cornerRadius(15)
             }
+            .padding(.horizontal)
+            .buttonStyle(PlainButtonStyle())
+            .disabled(folderTitle == "")
         }
+        .navigationTitle("Afegeix nou Folder")
     }
     
     private func addFolder() {
