@@ -31,8 +31,6 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 <img src="images/fromHome.gif" alt="launchApp" width="300" height="300">
 
----
-
 ## Persistence
 
 <img src="images/persistence.gif" alt="launchApp" width="300" height="300">
