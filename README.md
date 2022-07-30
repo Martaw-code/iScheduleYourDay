@@ -20,7 +20,7 @@ The purpose of this project is to understand the basis of **SwiftUI**, how to wo
 
 ### Real Time adding new Folder
 
-
+<img src="images/addingFolderRT.gif" alt="launchApp" width="300" height="300">
 
 
 
